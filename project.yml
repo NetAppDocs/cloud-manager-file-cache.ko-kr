@@ -1,0 +1,83 @@
+---
+settings:
+  name: Global File Cache
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: ko-kr,us-en,ja-jp,zh-cn
+sidebar:
+  entries:
+  - title: 모든 Cloud Manager 설명서
+    url: https://docs.netapp.com/us-en/cloud-manager-family
+  - title: 글로벌 파일 캐시 문서
+    url: "/index.html"
+  - title: 릴리스 정보
+    entries:
+    - title: 새로운 소식
+      url: "/whats-new.html"
+    - title: 해결된 문제
+      url: "/fixed-issues.html"
+  - title: 시작하십시오
+    entries:
+    - title: 글로벌 파일 캐시에 대해 알아보십시오
+      url: "/concept-gfc.html"
+    - title: 글로벌 파일 캐시 사전 요구 사항
+      url: "/concept-before-you-begin-to-deploy-gfc.html"
+    - title: 글로벌 파일 캐시 배포 및 라이센스 부여
+      url: "/task-gfc-getting-started.html"
+    - title: Global File Cache Edge 사전 요구 사항
+      url: "/download-gfc-resources.html"
+    - title: Global File Cache Edge 구축
+      url: "/task-deploy-gfc-edge-instances.html"
+  - title: 글로벌 파일 캐시를 사용합니다
+    entries:
+    - title: 최종 사용자 교육
+      url: "/concept-gfc-enduser-training.html"
+    - title: 추가 정보
+      url: "/reference-gfc-additional-information.html"
+  - title: 지식 및 지원
+    entries:
+    - title: 지원을 위해 등록하십시오
+      url: "/task-support-registration.html"
+    - title: 도움을 받으십시오
+      url: "/task-get-help.html"
+  - title: 법적 고지
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: 시작하십시오
+    links:
+    - title: 글로벌 파일 캐시에 대해 알아보십시오
+      url: concept-gfc.html
+    - title: 새로운 기능
+      url: whats-new.html
+    - title: 제한 사항
+      url: concept-gfc.html#limitations
+  - title: 구성 요소 배포
+    links:
+    - title: Cloud Volumes ONTAP를 스토리지 플랫폼으로 구축
+      url: task-gfc-getting-started.html#deploy-cloud-volumes-ontap-as-your-storage-platform
+    - title: 글로벌 파일 캐시 관리 서버 및 글로벌 파일 캐시 Core를 배포합니다
+      url: task-gfc-getting-started.html#enable-global-file-cache-in-your-working-environment
+    - title: 글로벌 파일 캐시 에지 인스턴스 배포
+      url: task-deploy-gfc-edge-instances.html
+  - title: 사용자 교육
+    links:
+    - title: 최종 사용자 교육
+      url: concept-gfc-enduser-training.html
+  - title: 블로그 커뮤니티
+    links:
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Cloud Central 블로그
+      url: https://cloud.netapp.com/blog
+    - title: 클라우드 웨비나
+      url: https://cloud.netapp.com/events
+  - title: 기타 리소스
+    links:
+    - title: Cloud Central 사용 사례
+      url: https://cloud.netapp.com/global-file-cache
+product-family: {}

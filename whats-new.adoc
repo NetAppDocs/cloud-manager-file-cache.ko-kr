@@ -1,0 +1,72 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, gfc, global file cache' 
+summary: 글로벌 파일 캐시의 새로운 기능 알아보기 
+---
+= 글로벌 파일 캐시의 새로운 기능
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+글로벌 파일 캐시의 새로운 기능 알아보기
+
+
+
+== 2021년 12월 17일(버전 1.2.0)
+
+
+
+=== OpenSSL 모듈이 버전 1.1.1L로 업그레이드되었습니다.
+
+이 버전은 최신 버전이며 보다 안전합니다. 이 모듈은 GFC Edge 및 GFC Core 간의 보안 통신에 사용됩니다.
+
+
+
+=== 로깅 인프라가 향상되었습니다.
+
+
+
+== 2021년 6월 9일(버전 1.1.0)
+
+
+
+=== "Edge Synchronization" 기능이 추가되었습니다.
+
+이 기능은 원격 사무실에 있는 여러 개의 모서리를 동기화하여 항상 데이터를 캐시하거나 따뜻하게 유지합니다. 한 쪽 가장자리에서 파일을 플러시/가져오면 Edge Sync에 참여하는 모든 모서리의 동일한 파일이 업데이트 및 캐시됩니다. 의 8.4절을 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^] 를 참조하십시오.
+
+
+
+=== OpenSSL 모듈이 버전 1.1.1k로 업그레이드되었습니다.
+
+이 버전은 최신 버전이며 보다 안전합니다. 이 모듈은 GFC Edge 및 GFC Core 간의 보안 통신에 사용됩니다.
+
+
+
+=== 라이센스 등록 페이지가 업데이트되었습니다.
+
+이제 GFC 라이센스 등록 페이지에 NetApp 가입을 통해 활성화할 경우 라이센스 수가 표시됩니다.
+
+
+
+== 2021년 3월 21일(버전 1.0.3)
+
+
+
+=== Windows Defender에서 GFC 프로세스를 자동으로 제외하도록 소프트웨어 설치 프로그램이 업데이트됩니다.
+
+이제 글로벌 파일 캐시 소프트웨어 설치 관리자가 Windows Defender 소프트웨어 온디맨드 검사에서 모든 GFC 프로세스를 제외합니다.
+
+
+
+=== 새 정책 구성 탭이 구성 콘솔에 추가되었습니다.
+
+이 구성 탭을 사용하여 GFC Core에서 사전 설치 작업을 추가할 수 있습니다.
+
+
+
+=== 성능 및 안정성을 향상시키면서 메모리를 적게 사용하도록 소프트웨어를 개선했습니다.

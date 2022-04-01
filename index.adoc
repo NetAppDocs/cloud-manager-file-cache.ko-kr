@@ -1,0 +1,15 @@
+---
+layout: astra 
+sidebar: sidebar 
+permalink: index.html 
+lead: Enable real-time global file sharing for your distributed workforce by using NetApp’s intelligent Global File Cache. 
+summary: NetApp의 지능형 글로벌 파일 캐시를 사용하여 분산된 인력을 위한 실시간 글로벌 파일 공유를 지원합니다. 
+---
+= 글로벌 파일 캐시 설명서
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
