@@ -156,11 +156,8 @@ Edge 라이선스를 추가로 구입하거나 구독을 갱신하면 지원/운
 
 == 제한 사항
 
-* Cloud Manager에서 지원되는 글로벌 파일 캐시 버전을 사용하려면 중앙 스토리지로 사용되는 백엔드 스토리지 플랫폼이 Azure 또는 AWS에 Cloud Volumes ONTAP 단일 노드 또는 HA 쌍을 구축한 작업 환경이어야 합니다.
-+
+Cloud Manager에서 지원되는 글로벌 파일 캐시 버전을 사용하려면 중앙 스토리지로 사용되는 백엔드 스토리지 플랫폼이 Azure 또는 AWS에 Cloud Volumes ONTAP 단일 노드 또는 HA 쌍을 구축한 작업 환경이어야 합니다.
+
 현재 다른 스토리지 플랫폼 및 기타 클라우드 공급자는 Cloud Manager를 사용하여 지원되지 않지만, 기존 구축 절차를 사용하여 구축할 수 있습니다.
 
-+
 예를 들어, Microsoft Azure, Google Cloud 또는 AWS에서 Cloud Volumes ONTAP 또는 Cloud Volumes Service를 사용하는 글로벌 파일 캐시 같은 다른 구성은 기존 절차를 사용하여 계속 지원됩니다. 을 참조하십시오 link:https://cloud.netapp.com/global-file-cache/onboarding["글로벌 파일 캐시 개요 및 온보딩"^] 를 참조하십시오.
-
-
