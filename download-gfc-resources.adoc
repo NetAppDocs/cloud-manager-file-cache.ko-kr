@@ -6,6 +6,7 @@ summary: 원격 사무소에 Global File Cache Edge 소프트웨어를 설치하
 ---
 = 글로벌 파일 캐시 에지 인스턴스를 배포하기 전에
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

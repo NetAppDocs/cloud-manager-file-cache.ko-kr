@@ -6,6 +6,7 @@ summary: Cloud Manager를 사용하여 작업 환경에 글로벌 파일 캐시 
 ---
 = 시작하기
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: 글로벌 파일 캐시의 새로운 기능 알아보기
 ---
 = 글로벌 파일 캐시의 새로운 기능
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

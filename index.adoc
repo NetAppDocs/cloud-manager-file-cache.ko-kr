@@ -7,6 +7,7 @@ summary: NetApp의 지능형 글로벌 파일 캐시를 사용하여 분산된 �
 ---
 = 글로벌 파일 캐시 설명서
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

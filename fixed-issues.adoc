@@ -6,6 +6,7 @@ summary: Global File Cache에서 해결된 문제를 확인하십시오.
 ---
 = 글로벌 파일 캐시의 문제 해결
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
