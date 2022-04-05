@@ -207,7 +207,6 @@
   <block id="d30bfe96d7c62ab706482cb5c2b4a1ec" category="section-title">Global File Cache Edge 설계 및 구축</block>
   <block id="5698363b5f7247a6f653aa572ae1cb51" category="paragraph">요구 사항에 따라 지사의 동시 사용자 세션을 기반으로 하나 이상의 Global File Cache Edge 인스턴스를 구축해야 할 수도 있습니다. Edge 인스턴스는 지사 내의 최종 사용자에게 가상 파일 공유를 제공하며, 연결된 Global File Cache Core 인스턴스에서 투명하게 확장됩니다. 글로벌 파일 캐시 에지에는 지점 내에 캐시된 파일이 포함된 Ds:\' NTFS 볼륨이 포함되어야 합니다.</block>
   <block id="f545daefd1b990207b6063d1a0d100bb" category="inline-link-macro">사이징 지침</block>
-  <block id="a9f922d8715f1a0a77c5687f0cb5aa93" category="admonition">Global File Cache Edge의 경우 을 이해하는 것이 중요합니다 <block ref="59a96d2edb633193f59953bdf68d36ab" category="inline-link-macro-rx"></block>. 이렇게 하면 글로벌 파일 캐시 구축을 위한 올바른 설계를 만드는 데 도움이 됩니다. 또한 확장, 리소스 가용성 및 이중화 측면에서 환경에 적합한 것을 결정해야 합니다.</block>
   <block id="1f01263cf82c613fccc25592d0c644d1" category="section-title">글로벌 파일 캐시 에지 인스턴스</block>
   <block id="ec0d814add25a4fc3dfc82c64e2a0a25" category="paragraph">Global File Cache Edge 인스턴스를 배포할 때는 Windows Server 2016 Standard 또는 Datacenter Edition 또는 Windows Server 2019 Standard 또는 Datacenter Edition을 배포하거나 Global File Cache".OVA" 또는 ".vhd" 템플릿을 사용하여 단일 VM을 프로비저닝해야 합니다. 여기에는 선택한 Windows Server 운영 체제와 글로벌 파일 캐시 소프트웨어가 포함됩니다.</block>
   <block id="8ea62d632a69911dcf193e9803b1195a" category="section-title">빠른 단계</block>
@@ -219,7 +218,6 @@
   <block id="b79d82b1580b1c089977036ab5909a2b" category="section-title">글로벌 파일 캐시 에지 요구 사항</block>
   <block id="dda6766b3822de333933a3770e1ae688" category="paragraph">Global File Cache Edge는 Windows Server 2016 및 2019를 지원하는 모든 플랫폼에서 작동하도록 설계되어 원격 사무실 등에 단순화된 IT를 제공합니다. 매우 중요한 점은, 몇 가지 기본 레벨 요구사항을 충족하는 거의 모든 경우에 글로벌 파일 캐시를 기존 하드웨어 인프라, 가상화 또는 하이브리드/퍼블릭 클라우드 환경에 구축할 수 있다는 것입니다.</block>
   <block id="137e4d3e0bc5586af6fc7ca9441511e1" category="inline-link-macro">사이징 지침</block>
-  <block id="4ac6218bd988565bf3ec6d86dd25e5ee" category="paragraph">Global File Cache Edge를 사용하려면 최적의 기능을 위해 다음과 같은 하드웨어 및 소프트웨어 리소스가 필요합니다. 전체 사이징 지침에 대한 자세한 내용은 을 참조하십시오 <block ref="9215c6eb660e6747de22e76d94c0e37f" category="inline-link-macro-rx"></block>.</block>
   <block id="831485d3736514b490af98e2fdcac477" category="section-title">강화된 서버 어플라이언스</block>
   <block id="667527cf2158cc0bb126a5aa3508ed66" category="paragraph">글로벌 파일 캐시 설치 패키지는 모든 Microsoft Windows Server 인스턴스에 강화된 소프트웨어 어플라이언스를 만듭니다. 전역 파일 캐시 패키지를 제거하지 마십시오. 글로벌 파일 캐시를 제거하면 서버 인스턴스의 기능에 영향을 미치며 서버 인스턴스를 완전히 재구성해야 할 수 있습니다.</block>
   <block id="976611c38f37696030731d275b8d5432" category="section-title">물리적 하드웨어 요구 사항</block>
@@ -423,17 +421,12 @@
   <block id="8de20cb9eef18978ba168ebc839695b7" category="paragraph">Global File Cache Core 인스턴스는 확장성이 매우 뛰어나며 권장되는 동시 사용자 수는 Core당 3,000명입니다. 이는 가장 일반적인 워크로드의 유형과 평균 파일 크기에 따라 상당한 차이가 있습니다.</block>
   <block id="b878b843693a16500d3da98423bf22b6" category="paragraph">이 섹션에 설명된 사전 요구 사항은 클라우드에 설치된 구성 요소, 즉 글로벌 파일 캐시 관리 서버 및 글로벌 파일 캐시 Core에 대한 것입니다.</block>
   <block id="b51baa22d09e6c9f1931a23ebef6347d" category="paragraph">Global File Cache Edge 사전 요구 사항에 대해 설명합니다 <block ref="dc13b95521107f0e6174e0d4f00812b4" category="inline-link-macro-rx"></block>.</block>
-  <block id="62cfe6527ad2ad6b51cb8ccaf7bf34f2" category="section-title">Cloud Manager 인스턴스</block>
-  <block id="da853f2b1b70f8830685d4d1ae8096ca" category="inline-link">Azure에 대한 Cloud Manager 정책</block>
-  <block id="37d08d548f640449b7f0187fd2333529" category="paragraph">Cloud Volumes ONTAP for Azure를 스토리지 플랫폼으로 사용할 경우 Cloud Manager에 최신 에 표시된 사용 권한이 있는지 확인하십시오<block ref="71541056249333863ccd60a02c145e24" category="inline-link-rx"></block>.</block>
-  <block id="d7bcfb31085ad76548d1b7a16fff01fb" category="paragraph">새로 생성된 인스턴스에는 기본적으로 필요한 모든 권한이 있습니다. 버전 3.8.7(2020년 8월 3일) 이전에 인스턴스를 배포한 경우 해당 항목을 추가해야 합니다.</block>
   <block id="891a589deeeaf68084584fbfae4c3ae7" category="section-title">스토리지 플랫폼(볼륨)</block>
   <block id="e6da02886af47462759989718f62ea49" category="paragraph">백엔드 스토리지 플랫폼(이 경우 배포된 Cloud Volumes ONTAP 인스턴스)은 SMB 파일 공유를 제공해야 합니다. 글로벌 파일 캐시를 통해 노출되는 모든 공유는 Everyone 그룹이 공유 수준에서 모든 권한을 완전히 제어할 수 있도록 하고 NTFS 권한을 통해 권한을 제한해야 합니다.</block>
   <block id="152468376710017819b274fb14a70617" category="paragraph">Cloud Volumes ONTAP 인스턴스에 SMB 파일 공유를 하나 이상 설정하지 않은 경우 설치 중에 이 정보를 구성할 수 있도록 다음 정보가 준비되어 있어야 합니다.</block>
   <block id="981640f9fb09fe09a937c7da955d9dfb" category="list-text">Active Directory 도메인 이름, 이름 서버 IP 주소, Active Directory 관리자 자격 증명.</block>
   <block id="794cb058ebafe2e7b0df56dea2e389d4" category="list-text">생성할 볼륨의 이름 및 크기, 볼륨을 생성할 애그리게이트의 이름 및 공유 이름</block>
   <block id="5a546cf8c7438d3947e0f034bfe5f5af" category="inline-link">기존 애그리게이트 관리</block>
-  <block id="19bd3fbf3c96e46437e41367e7026677" category="paragraph">데이터 세트가 증가해도 그에 따라 확장할 수 있는 기능과 함께 애플리케이션의 전체 데이터 세트를 수용할 수 있을 만큼 볼륨을 크게 설정하는 것이 좋습니다. 작업 환경에 Aggregate가 여러 개 있는 경우 를 참조하십시오<block ref="39d18222bad8d4a70367cc75016bb156" category="inline-link-rx"></block> 새 볼륨에 사용할 수 있는 공간이 가장 많은 애그리게이트를 확인합니다.</block>
   <block id="a47494fbd5157213a61c49892644da68" category="paragraph">이 글로벌 파일 캐시 관리 서버는 클라우드 공급자 구독 서비스에 연결하고 다음 URL에 액세스하려면 HTTPS(TCP 포트 443)를 통한 외부 액세스가 필요합니다.</block>
   <block id="224c646ebc1a3e88e1cdb258481bcfd0" category="inline-link"><block ref="224c646ebc1a3e88e1cdb258481bcfd0" category="inline-link-rx"></block></block>
   <block id="f12ef780b481a5c2973143651b98129e" category="list-text"><block ref="f12ef780b481a5c2973143651b98129e" category="inline-link-rx"></block></block>
@@ -534,4 +527,7 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="4c7d5d7dfde4a7bd82b54348182043d3" category="sidebar">기타 리소스</block>
   <block id="cc81b1698333ba727fd5bde305c3cf08" category="sidebar">Cloud Central 사용 사례</block>
+  <block id="c312a13dafd8799651830cedd659bf52" category="admonition">Global File Cache Edge의 경우 을 이해하는 것이 중요합니다 <block ref="e948e8be7ddbb6b86ab680f17f3dc3fb" category="inline-link-macro-rx"></block>. 이렇게 하면 글로벌 파일 캐시 구축을 위한 올바른 설계를 만드는 데 도움이 됩니다. 또한 확장, 리소스 가용성 및 이중화 측면에서 환경에 적합한 것을 결정해야 합니다.</block>
+  <block id="189b29195f2b3701055f4c94a0c1ffad" category="paragraph">Global File Cache Edge를 사용하려면 최적의 기능을 위해 다음과 같은 하드웨어 및 소프트웨어 리소스가 필요합니다. 전체 사이징 지침에 대한 자세한 내용은 을 참조하십시오 <block ref="e948e8be7ddbb6b86ab680f17f3dc3fb" category="inline-link-macro-rx"></block>.</block>
+  <block id="03120f4ae41820e46fabced95a93dbb5" category="paragraph">데이터 세트가 증가해도 그에 따라 확장할 수 있는 기능과 함께 애플리케이션의 전체 데이터 세트를 수용할 수 있을 만큼 볼륨을 크게 설정하는 것이 좋습니다. 작업 환경에 Aggregate가 여러 개 있는 경우 를 참조하십시오<block ref="acc2071beb330a8d456d30e0940aedbc" category="inline-link-rx"></block> 새 볼륨에 사용할 수 있는 공간이 가장 많은 애그리게이트를 확인합니다.</block>
 </blocks>

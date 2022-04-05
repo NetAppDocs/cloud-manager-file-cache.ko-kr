@@ -78,26 +78,6 @@ Global File Cache Edge 사전 요구 사항에 대해 설명합니다 link:downl
 
 
 
-=== Cloud Manager 인스턴스
-
-Cloud Volumes ONTAP for Azure를 스토리지 플랫폼으로 사용할 경우 Cloud Manager에 최신 에 표시된 사용 권한이 있는지 확인하십시오 https://occm-sample-policies.s3.amazonaws.com/Policy_for_cloud_Manager_Azure_3.9.12.json["Azure에 대한 Cloud Manager 정책"^].
-
-새로 생성된 인스턴스에는 기본적으로 필요한 모든 권한이 있습니다. 버전 3.8.7(2020년 8월 3일) 이전에 인스턴스를 배포한 경우 해당 항목을 추가해야 합니다.
-
-[source, json]
-----
-"Microsoft.Resources/deployments/operationStatuses/read",
-"Microsoft.Insights/Metrics/Read",
-"Microsoft.Compute/virtualMachines/extensions/write",
-"Microsoft.Compute/virtualMachines/extensions/read",
-"Microsoft.Compute/virtualMachines/extensions/delete",
-"Microsoft.Compute/virtualMachines/delete",
-"Microsoft.Network/networkInterfaces/delete",
-"Microsoft.Network/networkSecurityGroups/delete",
-"Microsoft.Resources/deployments/delete",
-----
-
-
 === 스토리지 플랫폼(볼륨)
 
 백엔드 스토리지 플랫폼(이 경우 배포된 Cloud Volumes ONTAP 인스턴스)은 SMB 파일 공유를 제공해야 합니다. 글로벌 파일 캐시를 통해 노출되는 모든 공유는 Everyone 그룹이 공유 수준에서 모든 권한을 완전히 제어할 수 있도록 하고 NTFS 권한을 통해 권한을 제한해야 합니다.
@@ -108,7 +88,7 @@ Cloud Volumes ONTAP 인스턴스에 SMB 파일 공유를 하나 이상 설정하
 * 생성할 볼륨의 이름 및 크기, 볼륨을 생성할 애그리게이트의 이름 및 공유 이름
 
 
-데이터 세트가 증가해도 그에 따라 확장할 수 있는 기능과 함께 애플리케이션의 전체 데이터 세트를 수용할 수 있을 만큼 볼륨을 크게 설정하는 것이 좋습니다. 작업 환경에 Aggregate가 여러 개 있는 경우 를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-storage.html["기존 애그리게이트 관리"^] 새 볼륨에 사용할 수 있는 공간이 가장 많은 애그리게이트를 확인합니다.
+데이터 세트가 증가해도 그에 따라 확장할 수 있는 기능과 함께 애플리케이션의 전체 데이터 세트를 수용할 수 있을 만큼 볼륨을 크게 설정하는 것이 좋습니다. 작업 환경에 Aggregate가 여러 개 있는 경우 를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-aggregates.html["기존 애그리게이트 관리"^] 새 볼륨에 사용할 수 있는 공간이 가장 많은 애그리게이트를 확인합니다.
 
 
 
