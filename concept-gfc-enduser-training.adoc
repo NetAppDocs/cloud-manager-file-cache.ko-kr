@@ -30,4 +30,4 @@ link:https://docs.netapp.com/us-en/occm/media/Global_File_Cache_Onboarding_Email
 * 온보딩 커뮤니케이션link:https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%20Customer%20Onboarding%20-%20Draft.docx["Word 문서(.docx)"]
 
 
-의 13장을 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^] 추가 자료를 참조하십시오.
+의 13장을 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^] 추가 자료를 참조하십시오.

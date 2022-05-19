@@ -18,6 +18,20 @@ Global File Cache에서 해결된 문제를 확인하십시오.
 
 
 
+== 2022년 5월 19일(버전 1.3.0)
+
+* Edge Sync 기능에 대한 구성 UI 페이지가 업데이트됩니다.
+* PowerShell cmdlet을 통해 여러 모서리의 사전 채우기 작업을 동시에 추가할 때 문제가 해결되었습니다.
+* NetApp 서브스크립션을 표시하는 LMS 웹 UI에서 디스플레이 문제를 해결했습니다.
+* LMS 구성 PowerShell 스크립트는 이제 TLS 1.2를 사용합니다.
+* TappN(pRE-population service)의 문제를 해결하고 일시적인 연결 해제 또는 Tum 재시작에도 불구하고 작업을 계속 실행할 수 있도록 했습니다.
+* 사용 가능한 캐시 공간이 하한 임계값 아래로 떨어질 경우 파일 가져오기를 건너뛰도록 TappN 사전 채우기 서비스가 업데이트됩니다.
+* 추적 로그를 작성하는 동안 License Manager Server Service(LMS)에서 문제가 해결되었습니다.
+* Tum용 로깅 인프라는 고성능 확장을 위해 업데이트됩니다.
+
+
+
+
 == 2021년 12월 17일(버전 1.2.0)
 
 * 구성 UI(Optimus)는 사전 채우기 작업을 추가하는 동안 날짜 필드 항목의 유효성을 검사하도록 향상되었습니다.
@@ -25,7 +39,7 @@ Global File Cache에서 해결된 문제를 확인하십시오.
 * 정책 구성을 사용하여 로컬로 실행되는 LMS(License Management Server) 서비스의 하드 종속성을 제거했습니다.
 * Windows Server 2016/2019의 SMB 서버 서비스에서 충돌을 피하기 위해 GFC 커널 드라이버가 향상되었습니다.
 * LMS 서비스에서 예외를 수정했습니다.
-* LMS, LMC 및 TappN 서비스에 대한 서비스 시작 유형이 '자동 지연'에서 '자동'으로 변경됩니다.
+* License Manager Server Service(LMS), License Manager Client Service(LMC) 및 Pre-Population Service(TappN)의 서비스 시작 유형이 '자동 지연'에서 '자동'으로 변경됩니다.
 
 
 

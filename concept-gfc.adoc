@@ -77,7 +77,7 @@ Cloud Manager를 사용하여 구축할 경우 글로벌 파일 캐시가 지원
 
 글로벌 파일 캐시 구성은 공용 클라우드 스토리지 인프라에 설치된 ONTAP 시스템용 Cloud Volumes ONTAP, Cloud Volumes Service, Azure NetApp Files 및 Amazon FSx에서도 지원됩니다. 사내 솔루션은 NetApp AFF 및 FAS 플랫폼에서도 사용할 수 있습니다. 이러한 설치에서는 Cloud Manager를 사용하지 않고 글로벌 파일 캐시 서버 측 구성 요소를 수동으로 구성 및 배포해야 합니다.
 
-를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^] 를 참조하십시오.
+를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^] 를 참조하십시오.
 
 
 
@@ -151,7 +151,7 @@ AWS의 경우 M4.xLarge 또는 동급(vCPU 4개/16GB RAM) 인스턴스에서 127
 
 Edge 라이선스를 추가로 구입하거나 구독을 갱신하면 지원/운영 부서에서 사이트 수 또는 구독 종료일과 같은 라이센스 세부 정보를 업데이트합니다. LMS가 구독 서비스를 쿼리하면 LMS 인스턴스에서 라이센스 세부 정보가 자동으로 업데이트되며, GFC Core 및 Edge 인스턴스에 적용됩니다.
 
-를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^] 라이센스에 대한 자세한 내용은 를 참조하십시오.
+를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^] 라이센스에 대한 자세한 내용은 를 참조하십시오.
 
 
 

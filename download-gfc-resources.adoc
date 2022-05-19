@@ -24,17 +24,17 @@ summary: 원격 사무소에 Global File Cache Edge 소프트웨어를 설치하
 
 * Windows Server 2016 가상 템플릿:
 +
-https://repo.cloudsync.netapp.com/gfc/2k16_ova_1_2_0-93.zip["NetApp GFC(VMware vSphere 6.5 이상)를 포함한 Windows Server 2016.OVA"^]
-https://repo.cloudsync.netapp.com/gfc/2k16_vhd_1-2-0-93.zip["NetApp GFC(Microsoft Hyper-V)를 포함한 Windows Server 2016, VHDX"^]
+https://repo.cloudsync.netapp.com/gfc/2K16-1_3_0_41.zip["NetApp GFC(VMware vSphere 6.5 이상)를 포함한 Windows Server 2016.OVA"^]
+https://repo.cloudsync.netapp.com/gfc/2k16_GFC_1_3_0_41IMAGE.zip["NetApp GFC(Microsoft Hyper-V)를 포함한 Windows Server 2016, VHDX"^]
 
 * Windows Server 2019 가상 템플릿:
 +
-https://repo.cloudsync.netapp.com/gfc/2k19_ova_1_2_0-93.zip["NetApp GFC(VMware vSphere 6.5 이상)를 포함한 Windows Server 2019.OVA"^]
-https://repo.cloudsync.netapp.com/gfc/2k19_vhd_1-2-0-93.zip["NetApp GFC(Microsoft Hyper-V)를 포함한 Windows Server 2019. VHDX"^]
+https://repo.cloudsync.netapp.com/gfc/2K19-1_3_0_41.zip["NetApp GFC(VMware vSphere 6.5 이상)를 포함한 Windows Server 2019.OVA"^]
+https://repo.cloudsync.netapp.com/gfc/2k19_GFC_1_3_0_41IMAGE.zip["NetApp GFC(Microsoft Hyper-V)를 포함한 Windows Server 2019. VHDX"^]
 
 * 글로벌 파일 캐시 에지 소프트웨어:
 +
-https://repo.cloudsync.netapp.com/gfc/GFC-1-2-0-94-Release.exe["NetApp GFC 소프트웨어 설치 패키지(.EXE)"^]
+https://repo.cloudsync.netapp.com/gfc/GFC-1-3-0-42-Release.exe["NetApp GFC 소프트웨어 설치 패키지(.EXE)"^]
 
 * 글로벌 파일 캐시 SCOM(Microsoft Systems Center Operations Manager) 패키지:
 +
@@ -42,9 +42,11 @@ https://repo.cloudsync.netapp.com/gfc/SCOM-151.zip["NetApp GFC SCOM 관리 패�
 
 * 글로벌 파일 캐시 문서:
 +
-https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf["NetApp 글로벌 파일 캐시 사용자 가이드(.pdf)"^]
+https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드(.pdf)"^]
 
 
+
+link:task-deploy-gfc-edge-instances.html#update-global-file-cache-edge-software["다음 단계를 수행합니다"] Global File Cache Edge 소프트웨어를 업그레이드합니다.
 
 
 
@@ -144,7 +146,7 @@ VMware vSphere 6.x 이상:
 
 글로벌 파일 캐시 지능형 파일 캐시 디스크(D:\)의 디스크 지연 시간은 최대 0.5ms 미만의 평균 I/O 디스크 지연 시간과 동시 사용자당 1MiBps 처리량을 제공해야 합니다.
 
-자세한 내용은 를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].
+자세한 내용은 를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].
 
 
 
@@ -165,7 +167,7 @@ Global File Cache는 고객의 환경에 투명하게 통합되므로 사용자�
 
 최적의 환경과 성능을 보장하려면 글로벌 파일 캐시 사용자 가이드에 설명된 Microsoft Windows 클라이언트 요구 사항 및 모범 사례를 준수해야 합니다. 이는 모든 버전의 Microsoft Windows에 적용됩니다.
 
-자세한 내용은 를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].
+자세한 내용은 를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].
 
 
 
@@ -173,7 +175,7 @@ Global File Cache는 고객의 환경에 투명하게 통합되므로 사용자�
 
 Global File Cache는 가장 일반적인 바이러스 백신 애플리케이션 제품군이 글로벌 파일 캐시와 호환되는지 확인하기 위해 합당한 노력을 기울이지만, NetApp은 이러한 프로그램 또는 관련 업데이트, 서비스 팩 또는 수정으로 인한 비호환성 또는 성능 문제를 보증하지 않습니다.
 
-Global File Cache는 Global File Cache 지원 인스턴스(Core 또는 Edge)에 모니터링 또는 바이러스 백신 솔루션의 설치 또는 응용 프로그램을 권장하지 않습니다. 솔루션을 선택 또는 정책에 따라 설치할 경우 다음과 같은 Best Practice 및 권장 사항이 적용되어야 합니다. 일반적인 바이러스 백신 제품군에 대해서는 의 부록 A를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].
+Global File Cache는 Global File Cache 지원 인스턴스(Core 또는 Edge)에 모니터링 또는 바이러스 백신 솔루션의 설치 또는 응용 프로그램을 권장하지 않습니다. 솔루션을 선택 또는 정책에 따라 설치할 경우 다음과 같은 Best Practice 및 권장 사항이 적용되어야 합니다. 일반적인 바이러스 백신 제품군에 대해서는 의 부록 A를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].
 
 
 
@@ -204,7 +206,7 @@ Global File Cache는 Global File Cache 지원 인스턴스(Core 또는 Edge)에 
 
 NOTE: Edge 어플라이언스에 바이러스 백신을 추가하면 사용자 성능에 10 ~ 20%의 영향을 줄 수 있습니다.
 
-자세한 내용은 를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].
+자세한 내용은 를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].
 
 
 

@@ -21,7 +21,7 @@ summary: 다음 링크를 사용하여 글로벌 파일 캐시 및 기타 NetApp
 ** 자주 묻는 질문과 대답 목록을 참조하십시오 link:https://cloud.netapp.com/global-file-cache-faq["여기"^]
 
 
-* https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^]
+* https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^]
 * NetApp 제품 설명서
 +
 ** NetApp 클라우드 제품에 대한 자세한 내용은 추가 설명서를 참조하십시오 https://docs.netapp.com/us-en/cloud/["여기"^]
