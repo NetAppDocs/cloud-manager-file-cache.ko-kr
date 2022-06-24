@@ -34,7 +34,7 @@ https://repo.cloudsync.netapp.com/gfc/2k19_GFC_1_3_0_41IMAGE.zip["NetApp GFC(Mic
 
 * 글로벌 파일 캐시 에지 소프트웨어:
 +
-https://repo.cloudsync.netapp.com/gfc/GFC-1-3-0-42-Release.exe["NetApp GFC 소프트웨어 설치 패키지(.EXE)"^]
+https://repo.cloudsync.netapp.com/gfc/GFC-1-3-1-46-Release.exe["NetApp GFC 소프트웨어 설치 패키지(.EXE)"^]
 
 * 글로벌 파일 캐시 SCOM(Microsoft Systems Center Operations Manager) 패키지:
 +

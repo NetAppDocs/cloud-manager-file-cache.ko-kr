@@ -585,11 +585,17 @@
 <block ref="8e4798a9d84286ce2af64cff0824baca" category="inline-link-rx"></block></block>
   <block id="40e4043ab4e9038318e0841ef06244c0" category="paragraph"><block ref="a53645675256480c99fed4a542cb3aca" category="inline-link-rx"></block>
 <block ref="4c2b578017747f1ec201cbd7ab6ca56c" category="inline-link-rx"></block></block>
-  <block id="c1f077f3784bbcdc13bd9524bf4918b7" category="paragraph"><block ref="c1f077f3784bbcdc13bd9524bf4918b7" category="inline-link-rx"></block></block>
   <block id="5621e0035a66f3c4e8f0c7d5fff8a27f" category="paragraph"><block ref="5621e0035a66f3c4e8f0c7d5fff8a27f" category="inline-link-rx"></block></block>
   <block id="e2ed07bb6933c98e532659727830bc52" category="inline-link-macro">다음 단계를 수행합니다</block>
   <block id="4249aa75e9ea96b2d0d6b440b4f4b8f4" category="paragraph"><block ref="099296b5b160f80a9ee09ffb08be17ae" category="inline-link-macro-rx"></block> Global File Cache Edge 소프트웨어를 업그레이드합니다.</block>
   <block id="db8e575f29e7264d9dbb628ab57766be" category="paragraph">자세한 내용은 를 참조하십시오<block ref="e0fe107ca8a95a3de0afb55f5223c6ad" category="inline-link-rx"></block>.</block>
   <block id="d9e1cd17d9a7ca15a50e2aaeed2f47c9" category="paragraph">Global File Cache는 Global File Cache 지원 인스턴스(Core 또는 Edge)에 모니터링 또는 바이러스 백신 솔루션의 설치 또는 응용 프로그램을 권장하지 않습니다. 솔루션을 선택 또는 정책에 따라 설치할 경우 다음과 같은 Best Practice 및 권장 사항이 적용되어야 합니다. 일반적인 바이러스 백신 제품군에 대해서는 의 부록 A를 참조하십시오<block ref="e0fe107ca8a95a3de0afb55f5223c6ad" category="inline-link-rx"></block>.</block>
   <block id="f3abc78aa44d210b1f7b92cda50a64cb" category="paragraph">글로벌 파일 캐시 코어 인스턴스당 최대 10개의 에지 인스턴스를 권장하며, 글로벌 파일 캐시 코어 인스턴스당 최대 20개의 엣지 인스턴스를 권장합니다. 이는 가장 일반적인 워크로드의 유형과 평균 파일 크기에 따라 상당한 차이가 있습니다. 일반적인 작업 부하가 더 많은 경우 Core당 Edge 인스턴스를 더 추가할 수 있지만 이러한 경우에는 계정 담당자에게 문의하여 파일 세트의 유형과 크기에 따라 Edge 및 Core 인스턴스의 수를 올바르게 사이징하는 방법을 결정해야 합니다.</block>
+  <block id="22c3479f6dd133b2d2d79cc8b481240f" category="section-title">2022년 6월 23일(버전 1.3.1)</block>
+  <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">해결된 문제</block>
+  <block id="2ffbf992fae9becab7e787491b2cdf41" category="paragraph">버전 1.1.1용 Global File Cache Edge 소프트웨어는 에서 구할 수 있습니다<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>. 이 릴리스는 에 설명된 문제를 해결합니다<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>.</block>
+  <block id="897b3098cd8a06c0ff8041457079a260" category="paragraph"><block ref="897b3098cd8a06c0ff8041457079a260" category="inline-link-rx"></block></block>
+  <block id="f12e4f9c6c0ea52ff0c85be8308ff143" category="list-text">업그레이드 시 올바른 버전의 Microsoft 재배포 가능 파일이 올바르게 설치되지 않아 Tum이 시작되지 않습니다. GFC 설치 프로그램이 올바른 버전 재배포 가능 버전을 설치하도록 수정되었습니다.</block>
+  <block id="e4e361b13d8ce3c010df78be535b3aeb" category="list-text">이제 GFC License Manager Service(LMS)가 구성 정보를 덮어쓰지 않고 업데이트합니다.</block>
+  <block id="08b34be098f59c81e94653cf34a7c9ae" category="list-text">이제 구성 UI는 업그레이드 프로세스 중에 올바른 System.net.http dll에 바인딩됩니다.</block>
 </blocks>
